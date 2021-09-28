@@ -2,10 +2,15 @@ body {
     background-color: white;
     font-family: "helvetica neue", helvetica, arial, sans-serif;
 }
-p a {
-    color: red;
+article {
+    padding: 0px 14px;
+    font-size: 19px;
+}
+a {
+    color: #e2001a;
     text-decoration: none;
 }
+
 h1 {
     font-size: 34px;
     font-weight: 700;
@@ -13,6 +18,7 @@ h1 {
     line-height: 40.8px;
     text-align: left;
 }
+
 h2 {
     display: block;
     font-size: 20px;
@@ -22,7 +28,38 @@ h2 {
     line-height: 21px;
     text-align: left;
 }
-.toplist{
+
+p, video {
+    margin: 26px
+}
+
+figure {
+    margin: 0px
+}
+
+
+figcaption {
+    text-align: left;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 17px;
+    color: #444;
+}
+
+#headerid {
+    display: flex;
+    align-items: center;
+    line-height: 21px;
+    padding: 0px 15px;
+}
+
+.img-in-text {
+    margin: 0px 26px;
+}
+
+.topmenu {
+    color: black;
     display: flex;
     list-style-type: none;
     font-size: 16px;
@@ -30,6 +67,142 @@ h2 {
     letter-spacing: 2px;
     line-height: 42px;
     text-transform: uppercase;
+    vertical-align: middle;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
 }
+
+.topmenu li {
+    width: auto;
+    display: inline;
+    padding: 0px 12px;
+ }
+
+.topmenu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.secondmenu{
+    background-color: #F2F2F2;
+    color: black;
+    display: flex;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 42px;
+    font-style: italic;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 30px;
+    height: 53px;
+}
+
+.secondmenu li a {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #e2001a;
+}
+
+#menumusic{
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.readmore{
+    font-weight: 700;
+}
+
+.bytext {
+    margin: 0px;
+    margin-bottom: 18px;
+}
+.author {
+    font-weight: 700px;
+    color: #e2001a;
+}
+
+p a:hover, article li a:hover {
+    text-decoration: underline;
+}
+
+#relatedtopics {
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    font-size: 16px;    
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.topic {
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    padding-top: 36px;
+}
+
+.statement{
+    font-size: 20px;
+    color: #ccc;
+}
+.mailist{
+    font-size: 21px;
+    font-style: italic;
+    color: #e2001a;
+}
+.singupnow{
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.privacylist{
+    color: white;
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.privacylist a{
+    color: white;
+    font-size: 12px;
+    padding: 10px 16px;
+}
+
+.copyright{
+    color: white;
+    list-style-type: none;
+    font-size: 12px;
+    padding: 10px 16px;
+    justify-content: space-around;
+    align-content: center;    
+}
+
+.copyright a{
+    color: white;
+    font-weight: 700;
+}
+
 
 
